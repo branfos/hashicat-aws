@@ -10,7 +10,7 @@ cat << EOM > /var/www/html/index.html
 
   <!-- BEGIN -->
   <center><img src="http://${PLACEHOLDER}/${WIDTH}/${HEIGHT}"></img></center>
-  <center><h2>Greetings and Salutations!</h2></center>
+  <center><h2>Hello Lily!</h2></center>
   
   <!-- END -->
 
