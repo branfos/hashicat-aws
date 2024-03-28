@@ -197,14 +197,3 @@ resource "aws_key_pair" "hashicat" {
   key_name   = local.private_key_filename
   public_key = tls_private_key.hashicat.public_key_openssh
 }
-resource "tfe_variable" "service_tag" {
-
-  key          = "service"
-
-  value        = var.service_tag_value
-
-  category     = "terraform"
-
-  workspace_id = tfe_workspace.main.id
-
-}
