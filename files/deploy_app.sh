@@ -1,4 +1,4 @@
-#!/bin/bash
+s #!/bin/bash
 # Script to deploy a very simple web application.
 # The web app has a customizable image and some text.
 
@@ -10,7 +10,7 @@ cat << EOM > /var/www/html/index.html
 
   <!-- BEGIN -->
   <center><img src="http://${PLACEHOLDER}/${WIDTH}/${HEIGHT}"></img></center>
-  <center><h2>Hello Lily!</h2></center>
+  <center><h2>Greetings and Salutations!</h2></center>
   
   <!-- END -->
 
